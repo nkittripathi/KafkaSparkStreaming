@@ -17,7 +17,8 @@ import static org.apache.spark.sql.functions.explode;
 
 /**
  * Spark Kafka Streaming Challenge
- *
+ * Pass argument like :- <bootstrap server> <subscribe-type> <topics> 
+ * eg :- localhost:9092 subscribe mytopic
  */
 public class App 
 {	
